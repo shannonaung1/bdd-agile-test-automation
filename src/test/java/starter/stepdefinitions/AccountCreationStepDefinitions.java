@@ -23,7 +23,7 @@ public class AccountCreationStepDefinitions {
     }
     @When("{actor} initiates the account creation process")
     public void she_initiates_the_account_creation_process(Actor actor) {
-        actor.attemptsTo(Click.on(SIGNUP_BUTTON)
+         actor.attemptsTo(Click.on(SIGNUP_BUTTON)
         );
     }
 //    @When("{actor} provides their {email} and {password}")
